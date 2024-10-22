@@ -11,13 +11,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun DetailScreen(){
+fun DetailScreen(name: String){
     Column (modifier = Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally){
         Spacer(modifier = Modifier.weight(1f))
-        Text(text = "Detail Screen", fontSize = 30.sp)
+        Text(text = "Detail Screen $name", fontSize = 30.sp)
         Spacer(modifier = Modifier.weight(1f))
         Button(onClick = {  }) {
-            Text(text = "Go to Home")
+            Text(text = "Go to Ajustes")
         }
         Spacer(modifier = Modifier.weight(1f))
     }
