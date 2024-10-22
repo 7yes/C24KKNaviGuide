@@ -31,5 +31,5 @@ fun NavigationWrapper() {
                 }
             }, name = gotoDetail.data)
         }
-    }
+    }//
 }
